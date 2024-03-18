@@ -1,6 +1,6 @@
 <?php
 
-include('./config/products.php');
+include('./config/remote.php');
 $sql = "SELECT id, name, price FROM items1";
 
 //query the db and add the result to a php array
